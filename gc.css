@@ -1,0 +1,59 @@
+body{
+    margin:0px;
+}
+#nav{
+    display: flex;
+    margin-top: 10px;
+    justify-content:flex-end;
+}
+#nav a{
+    margin: 20px;
+}
+#nav a.user{
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    border-radius: 50%;
+}
+#middle
+{
+    margin:150px;
+}
+#logo{
+ text-align:center;
+}
+#searchbarcontainer{
+    text-align: center;
+    margin-top: 30px;
+}
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 600px;
+    border-radius: 30px;
+    border: 2px solid #dbdada;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:10px 5px;
+    margin: 20px;
+    cursor: pointer;
+    background:rgb(243, 243, 241);
+    border-radius: 5px;
+}
+#links{
+    margin-top:5px;
+    text-align: center;
+}
+#footer{
+    background-color: lavenderblush;
+}
+#footer-links{
+    margin:20px;
+}
